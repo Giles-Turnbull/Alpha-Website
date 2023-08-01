@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Bootstrap links and javascript files-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet' />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+
+        <link rel="stylesheet" href="Styles/Nav.css" />
+        <link rel="stylesheet" href="Styles/General.css" />
+        <link rel="stylesheet" href="Styles/Contact.css" />
+        <script src="Scripts/Services.js"></script>
+        <script src="Scripts/index.js"></script>
+        <script src="Scripts/contact.js"></script>
+
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+
+        <div class="l-navbar" id="nav-bar">
+            <div class="nav_links_wrapper">
+                <div class="nav_link_container_image">
+                    <img src="images/alpha-logo.png" class="center" onclick="window.location.href='Index.html'">
+                </div>
+                <div class="nav_link_container">
+                    <a href="Services.html" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Services</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="#" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">About us</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="#" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Personnel</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="Contact.html" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="bg-image" style="background-image: url('https://americanpoliceofficersalliance.com/wp-content/uploads/2020/07/ev-6yi0opHWUNQ-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; height: 100vh;">
+            <div style="background-color: hsla(0, 0%, 0%, 0.8)">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-6 container-left">
+                            <div class="container-call">
+                                <img src="images/email-icon.png" class="icon-contact">
+                                <h1 class="email-header">Email us on:</h1>
+                                <h2 class="email-content" id="email-address"><a class="email-content" href="mailto:operations@alphasecurityindustries.co.uk">operations@alphasecurityindustries.co.uk</a></h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6 container-right">
+                            <div class="container-email">
+                                <img src="images/phone-icon.png" class="icon-contact">
+                                <h1 class="phone-header">Call us on:</h1>
+                                <h2 class="phone-content"><a class="phone-content" href="tel:0333 224 4328">0333 224 4328</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="GoTop()" class="btn btn-primary btn-top">Back to the top</button>
+        <script>
+                function GoTop() {
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
+                }
+        </script>
+        <div class="container-fluid footer pt-5 pb-4">
+            <div class="container" style="width:300px;">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/twitter.png" class="icon">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/facebook.png" class="icon">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/insta.png" class="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-3">
+                Call: 0333 224 4328
+                <br>
+                Email: operations@alphasecurityindustries.co.uk
+                <br>
+                © Copyright Alpha Security Industries. All rights reserved.
+                <br>
+            </div>
+            <div style="font-size: 10px;">Website created by Giles Turnbull</div>
+        </div>
+
+    </body>
+</html>

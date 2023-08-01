@@ -1,0 +1,112 @@
+@media screen and (max-width: 569px) {
+    .container-email{
+        padding-top: 5vh;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 7.5vh;
+        background-color: #c89b2d;
+        height: 70vh;
+        width: 50vw;
+        z-index: 2;
+    }
+    .container-call{
+        padding-top: 5vh;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 7.5vh;
+        background-color: black;
+        height: 70vh;
+        width: 50vw;
+        z-index: 2;
+    }
+    .icon-contact{
+        margin-top: 10vh;
+        width: 10vH;
+        height: 10vH;
+    }
+}
+
+
+@media screen and (min-width: 570px) {
+    .container-email{
+        padding-top: 5vh;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 15vh;
+        background-color: #c89b2d;
+        height: 70vh;
+        width: 35vw;
+        z-index: 2;
+    }
+    .container-call{
+        padding-top: 5vh;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 15vh;
+        background-color: black;
+        height: 70vh;
+        width: 35vw;
+        z-index: 2;
+    }
+    .icon-contact{
+        margin-top: 12vh;
+        width: 6vw;
+        height: 6vw;
+    }
+    .email-content{
+        padding-top: 0vh;
+        font-size: 3.2vh;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
+
+.container-left{
+    position: relative;
+    height: 100vh;
+}
+.container-right{
+    position: relative;
+    height: 100vh;
+}
+
+
+.email-header{
+    padding-top: 4vh;
+    font-size: 7vh;
+    color: #c89b2d;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.phone-header{
+    padding-top: 4vh;
+    font-size: 7vh;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.email-content{
+    padding-top: 0vh;
+    font-size: 3.2vh;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.email-content:hover{
+    color: #c89b2d;
+}
+.phone-content{
+    padding-top: 0vh;
+    font-size: 3.2vh;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.phone-content:hover{
+    color: black;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Bootstrap links and javascript files-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet' />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+
+        <script src="Scripts/index.js"></script>
+        <link rel="stylesheet" href="Styles/Nav.css" />
+        <link rel="stylesheet" href="Styles/General.css" />
+        <link rel="stylesheet" href="Styles/Services.css" />
+        <script src="Scripts/Services.js"></script>
+
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        
+
+        <div class="l-navbar" id="nav-bar">
+            <div class="nav_links_wrapper">
+                <div class="nav_link_container_image">
+                    <img src="images/alpha-logo.png" class="center" onclick="window.location.href='Index.html'">
+                </div>
+                <div class="nav_link_container">
+                    <a href="Services.html" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Services</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="#" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">About us</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="#" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Personnel</span>
+                    </a>
+                </div>
+                <div class="nav_link_container">
+                    <a href="Contact.html" class="nav_link" style="width: 100%; height: 100%;">
+                        <span class="nav_name">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-window">
+            <h1 class="headerOne"><strong>Our Services</strong></h1>
+            <h2 class="description">We offer 24-hour protection and peace of mind for all our customers</h2>
+        
+            <h2 class="sideHeader">Our Personnel</h2>
+            <h2 class="headerTwo-partOne">We offer</h2>
+            <h2 class="headerTwo-partTwo"></h2>
+        
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="5"></li>
+                    <!-- Add more li elements for each image -->
+                </ol>
+        
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-slide-index="1">
+                        <img src="images/Concierge.jpg" class="img-fluid carousel-img" alt="'Concierge Services', 'We provide a high level of personal service whether it be sourcing particular items or taking you to your destination. You can rely on our discretion.'">
+                    </div>
+                    <div class="carousel-item" data-slide-index="2">
+                        <img src="https://e0.pxfuel.com/wallpapers/580/626/desktop-wallpaper-police-black-and-white-police-police-badge.jpg" class="img-fluid carousel-img" alt="'24 Hour Security', 'We are experts in providing manned guard security solutions for organisations from a diverse range of market sectors on both a single and multiple site basis.'">
+                    </div>
+                    <div class="carousel-item" data-slide-index="3">
+                        <img src="https://circuit-magazine.com/wp-content/uploads/2018/11/qwe.jpg" class="img-fluid carousel-img" alt="'Close Protection', 'Our close protection officers are trained to protect and put your safety first. Rest assured, we are always alert and prepared to respond.'">
+                    </div>
+                    <div class="carousel-item" data-slide-index="4">
+                        <img src="https://www.navvis.com/hs-fs/hubfs/navvis-factory-planning2-image1.jpg?width=1200&name=navvis-factory-planning2-image1.jpg" class="img-fluid carousel-img" alt="'Facilities and Maintenance', 'Our commercial and industrial maintenance plans offer great value for money and keep your premises in good order.'">
+                    </div>
+                    <div class="carousel-item" data-slide-index="5">
+                        <img src="https://schoolsweek.co.uk/wp-content/uploads/2018/07/Maths-2-blackboard-sm-1000x583.jpg" class="img-fluid carousel-img" alt="'Training', 'All of our training is handled by Alpha Training Industries. You can view the training options available on the Alpha Training website.'">
+                    </div>
+                    <div class="carousel-item" data-slide-index="6">
+                        <img src="https://images.unsplash.com/photo-1513350660342-816d92510adf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3VhcmQlMjBkb2d8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-fluid carousel-img" alt="'Dog Handling', 'Our dog handling service is a invaluable deterrent for unwanted visitors. Our highly trained dogs protect your premises.'">
+                    </div>
+                </div>
+        
+                <!-- Left and right controls -->
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        
+            <img src="images/alpha-logo.png" class="logo" onclick="window.location.href='Index.html'">
+            <p id="carouselDescription" class="container carousel-description"></p>
+            <br>
+        </div>
+
+        <div class="container-fluid spacer">
+            <div class="row ps-2 pe-2 description-row">
+                <div class="col-lg-6 col-md-12 col-12 description-row1">
+                    <h1 class="description-header-two">What we provide</h1>
+                    <p class="description-header-content-two">
+                        We offer 24 hour protection and peace of mind for all our customers, by providing the following:
+                        <ul class="description-header-content-bullets">
+                            <li>Static guarding</li>
+                            <li>Property Management</li>
+                            <li>Internal and external building patrols</li>
+                            <li>CCTV, remote surveillance, and access control</li>
+                            <li>24 Hour and mobile security</li>
+                            <li>Dog Handling</li>
+                            <li>Door supervision</li>
+                            <li>Close Protection</li>
+                            <li>Search procedures</li>
+                            <li>First aid</li>
+                            <li>Health &amp; Safety</li>
+                            <li>Security Driver</li>
+                            <li>Concierge Driver</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 description-row2">
+                    <h1 class="description-header-one">Operations</h1>
+                    <p class="description-header-content-one">
+                        Our operations include the systematic and regular monitoring, supervision and management of all aspects of the services involved. This is specific to each individual contract we undertake. Reports are prepared regularly and include an up to date risk assessment for our staff at the customer's site. The provision of this dedicated supervisory and monitoring service is in addition to our terms of agreement and includes regular daily reporting tht occurs between our staff at customer's sites and their supervisors and incurs no additional expense to the customer. We also work closely with others that supply technical services, such as alarms, access control systems, locksmiths and computer based systems to support the manned guarding. We can put our customers in touch with a colleague if such advice is needed on any of the above.
+                    </p>
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <button onclick="GoTop()" class="btn btn-primary btn-top">Back to the top</button>
+        <script>
+                function GoTop() {
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
+                }
+        </script>
+        <div class="container-fluid footer pt-5 pb-4">
+            <div class="container" style="width:300px;">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/twitter.png" class="icon">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/facebook.png" class="icon">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/insta.png" class="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-3">
+                Call: 0333 224 4328
+                <br>
+                Email: operations@alphasecurityindustries.co.uk
+                <br>
+                © Copyright Alpha Security Industries. All rights reserved.
+                <br>
+            </div>
+            <div style="font-size: 10px;">Website created by Giles Turnbull</div>
+        </div>
+
+
+        
+
+
+    </body>
+</html>
+
+
+

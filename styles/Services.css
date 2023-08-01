@@ -1,0 +1,278 @@
+body{
+    background-color: #c89b2d;
+}
+
+
+
+@media screen and (max-width: 769px) {
+    .container-window {
+      height: 40vh; /* Set height to 'auto' for smaller screens */
+      padding-top: 10px; /* Add some padding to reduce the gap */
+      width: 100vw;
+    }
+    .logo{
+        position: absolute;
+        height: 0vh;
+    }
+    .headerOne{
+        padding-left: 10px;
+        position: static;
+        color: #c89b2d;
+        font-size: 8vw;
+        font-family: 'Anton', sans-serif;
+        z-index: 2;
+        background-color: black;
+        width: 90%;
+    }
+    .description{
+        padding-left: 10px;
+        position: static;
+        color: black;
+        font-size: 4vw;
+        font-family: 'Bebas Neue', sans-serif;
+        z-index: 2;
+    }
+    .sideHeader{
+        font-size: 0px;
+    }
+    .headerTwo-partOne{
+        font-size: 0px;
+    }
+    .headerTwo-partTwo{
+        font-size: 0px;
+    }
+    .carousel {
+        position: relative;
+        width: 100vw;
+        max-height: 10vh;
+        bottom: 9.6vh;
+        
+    }
+    
+    .carousel-inner {
+        width: 100%;
+        max-height: 100%;
+    }
+    
+    .carousel-item {
+        width: 100%;
+        max-height: 75vh;
+    }
+    .container{
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * 0);
+    }
+    .carousel-indicators {
+        position: relative;
+        bottom: -60vh;
+    }
+    .carousel-control-next{
+        position: relative;
+        top: -35vh;
+        right: -85vw;
+    }
+    .carousel-img{
+        height: 60vh;
+        object-fit: cover;
+        filter: brightness(80%);
+    }
+    .carousel-description{
+        position: relative;
+        width: 95vw;
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 5vw;
+        bottom: -50vh;
+    }
+    .spacer{
+        margin-top: 50vh;
+        background-color: black;
+    }
+    .description-header{
+        color: #c89b2d;
+        font-family: 'Anton', sans-serif;
+        padding-top: 1vh;
+        font-size: 2vh;
+    }
+    .description-header-content{
+        color: #c89b2d;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5vh;
+        padding-top: 1vh;
+    }
+    .description-header-content-bullets{
+        color: #c89b2d;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5vw;
+    }
+    
+}
+
+
+@media screen and (min-width: 770px) {
+    .container-window{
+        margin: auto;
+        margin-top: 13vh;
+        height: 74vh;
+        width: 80vw;
+        background-color: black;
+        box-shadow: 5px 10px 18px #000000;
+        position: relative;
+        z-index: 1;
+    }
+    .headerOne{
+        position: absolute;
+        color: black;
+        font-size: 3.5vw;
+        font-family: 'Anton', sans-serif;
+        z-index: 2;
+        top: -7.5vh;
+    }
+    .description{
+        position: absolute;
+        color: #c89b2d;
+        font-size: 1.5vw;
+        font-family: 'Bebas Neue', sans-serif;
+        z-index: 2;
+        left: 22vw;
+        top: 2vh;
+    }
+    
+    .sideHeader{
+        position: absolute;
+        color: #c89b2d;
+        font-size: 1.5vw;
+        font-family: 'Anton', sans-serif;
+        padding-top: 10px;
+        z-index: 2;
+        transform: rotate(-90deg);
+        left: -2.875vw;
+        top: 18vh;
+    }
+    .sideHeader:hover{
+        color: white;
+        background-color: rgb(10, 10, 10);
+        border-top: white solid 2px;
+    }
+    .headerTwo-partOne{
+        position: absolute;
+        z-index: 2;
+        color: white;
+        text-shadow: #c89b2d;
+        font-size: 5vw;
+        font-family: 'Anton', sans-serif;
+        left: 5vw;
+        bottom: 22vh;
+    }
+    .headerTwo-partTwo{
+        position: absolute;
+        z-index: 2;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 5vw;
+        font-family: 'Anton', sans-serif;
+        left: 7.5vw;
+        bottom: 12vh;
+    }
+    
+    .logo{
+        position: absolute;
+        height: 20vh;
+        bottom: -5vh;
+        left: -3vw;
+    }
+    .carousel {
+        position: absolute;
+        width: 65vw;
+        max-height: 60vh;
+        bottom: 7vh;
+        left: 10vw;
+    }
+    
+    .carousel-inner {
+        width: 100%;
+        max-height: 100%;
+    }
+    
+    .carousel-item {
+        width: 100%;
+        max-height: 60vh;
+    }
+    .carousel-indicators {
+        bottom: -25px;
+        margin: 0, 0;
+    }
+    .carousel-img{
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+    .carousel-description{
+        position: absolute;
+        width: auto;
+        color: #c89b2d;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.2vw;
+        bottom: -0.5vh;
+        left: 9vw;
+    }
+    .spacer{
+        margin-top: 13vh;
+        background-color: rgb(25, 25, 25);
+    }
+    .description-header-one{
+        color: #c89b2d;
+        font-family: 'Anton', sans-serif;
+        padding-top: 1.5vh;
+        font-size: 3vw;
+    }
+    .description-header-two{
+        color: black;
+        font-family: 'Anton', sans-serif;
+        padding-top: 1.5vh;
+        font-size: 3vw;
+    }
+    .description-header-content-one{
+        color: #c89b2d;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.3vw;
+        padding-top: 1vh;
+    }
+    .description-header-content-two{
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.3vw;
+        padding-top: 1vh;
+    }
+    .description-header-content-bullets{
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.1vw;
+    }
+    .description-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description-row1{
+        width: 45%;
+        height: auto;
+        background-color: #c89b2d;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        box-shadow: 5px 10px 18px #000000;
+    }
+    .description-row2{
+        width: 45%;
+        height: auto;
+        background-color: black;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        transform: translate(-1.5vw, 0);
+        box-shadow: 5px 10px 18px #000000;
+    }
+}
+
+
+
+.carousel .carousel-indicators li {
+    background-color: white; opacity: 1; width: 16.6%;}
+.carousel .carousel-indicators li.active {background-color: #c89b2d; opacity: 1;}

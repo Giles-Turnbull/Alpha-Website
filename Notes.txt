@@ -1,0 +1,45 @@
+5 pages - £200
+Extra page - £50 each
+Publish website, configure DNS, and SSL certificate - £50
+Support for six months and bug-fixing - £75 base plus hourly rate
+Changed content, image editing and adding. - Hourly pay £11.50
+Search Engine Optimisation (over 3 months) - £50 base plus hourly rate
+
+
+
+
+                    <h1 class="description-header">Operations</h1>
+                    <p class="description-header-content">
+                        Our operations include the systematic and regular monitoring, supervision and management of all aspects of the services involved. This is specific to each individual contract we undertake. Reports are prepared regularly and include an up to date risk assessment for our staff at the customer's site. The provision of this dedicated supervisory and monitoring service is in addition to our terms of agreement and includes regular daily reporting tht occurs between our staff at customer's sites and their supervisors and incurs no additional expense to the customer. We also work closely with others that supply technical services, such as alarms, access control systems, locksmiths and computer based systems to support the manned guarding. We can put our customers in touch with a colleague if such advice is needed on any of the above.
+                    </p>
+
+
+
+
+
+                    <h1 class="description-header-one">Patrol management</h1>
+                    <p class="description-header-content-one">
+                        When our offices are required to undertake regular patrols of our customer's property a patrol management is established. Documentary proof of patrols is made available to clients, usually on a weekly basis, or more frequently if requested.<br><br>
+                        Currently we work in Aylesbury, Buckingham, Amersham and High Wycombe. We cover Hertfordshire, Bedfordshire, Berkshire, Buckinghamshire and Oxfordshire.
+                    </p>
+                    
+                    <h1 class="description-header">Area management</h1>
+                    <p class="description-header-content">
+                        An area manager is assigned to each customer. He monitors the service provided on a daily basis to ensure high standards are maintained. Regular management liaison meetings are held and the area manager continues to be available at all times for reviews and consultation.
+                    </p>
+                    <h1 class="description-header">Facilities</h1>
+                    <p class="description-header-content">
+                        We can look after the maintenance and cleaning of your facilities combined, so you can focus on what matters to your business.
+                    </p>
+                    <h1 class="description-header">Maintenance</h1>
+                    <p class="description-header-content">
+                        Our commercial and industrial maintenance plans offer great value for money and keep your premises in good order.
+                    </p>
+                    <h1 class="description-header">Cleaning Services</h1>
+                    <p class="description-header-content">
+                        Commercial and industrial cleaning services available, our contract services will save you time and money.
+                    </p>
+                    <h1 class="description-header">Remote surveillance</h1>
+                    <p class="description-header-content">
+                        A site with security cameras can can be monitored 24 hours a day from a control with constantly manned monitors.
+                    </p>
